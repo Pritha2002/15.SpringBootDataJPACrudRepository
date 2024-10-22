@@ -1,0 +1,10 @@
+spring: 
+  datasource: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///pmdb01
+    username: root
+    password: Tupa@2025
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
